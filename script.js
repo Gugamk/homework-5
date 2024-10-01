@@ -8,8 +8,8 @@ let countDown = setInterval(() => {
       console.log(`Finished`);
     }, 2000);
   } else if (count % 2 === 0) {
-    document.body.style.backgroundColor = `White`;
-  } else if (count % 2 !== 0) {
     document.body.style.backgroundColor = `Black`;
+  } else if (count % 2 !== 0) {
+    document.body.style.backgroundColor = `White`;
   }
 }, 1000);
